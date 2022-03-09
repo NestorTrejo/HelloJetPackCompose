@@ -25,6 +25,7 @@ class MainActivity : ComponentActivity() {
             DatosPersonales(name = "Nestor")
         }
     }
+    //se acaba de editar esto
     @Composable
     private fun DatosPersonales(name:String){
         Column(modifier=Modifier.padding(16.dp)) {
